@@ -19,7 +19,12 @@ chat_history = []
 def init_chatbot():
     global chain, chat_history
 
-    os.environ["OPENAI_API_KEY"] = settings.APIKEY
+    # Retrieve the API key from the environment variable
+    api_key = os.environ.get("YOUR_API_KEY_VARIABLE_NAME")
+    if not api_key:
+        raise ValueError("API key environment variable not set.")
+
+    os.environ["OPENAI_API_KEY"] = api_key
 
     PERSIST = False
     query = None
@@ -50,13 +55,3 @@ def get_response(user_input):
 if __name__ == "__main__":
     init_chatbot()
 
-    # The command line loop
-    query = None
-    while True:
-        if not query:
-            query = input("Prompt: ")
-        if query in ['quit', 'q', 'exit']:
-            sys.exit()
-        response = get_response(query)
-        print(response)
-        query = None
