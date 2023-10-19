@@ -10,7 +10,8 @@ from langchain.indexes import VectorstoreIndexCreator
 from langchain.indexes.vectorstore import VectorStoreIndexWrapper
 from langchain.llms import OpenAI
 from langchain.vectorstores import Chroma
-import settings
+from settings import APIKEY
+
 
 # Declare global variables
 chain = None
@@ -20,7 +21,8 @@ def init_chatbot():
     global chain, chat_history
 
     # Retrieve the API key from the environment variable
-    api_key = os.environ.get("YOUR_API_KEY_VARIABLE_NAME")
+    api_key = APIKEY
+
     if not api_key:
         raise ValueError("API key environment variable not set.")
 

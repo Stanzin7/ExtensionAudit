@@ -1,0 +1,86 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+dist/
+build/
+wheels/
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pytype static type analyzer
+.pytype/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Cython debug symbols
+cython_debug/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# IDE/Editor Directories
+.vscode/
+.idea/
+*.swp      # For Vim
+*.swo      # For Vim
+*.DS_Store # For macOS
+
+# Logs & Databases
+*.log
+*.db
+*.sqlite
+
+# Temporary files
+*~
+.cache/
+
+# Environment Secrets and Configuration
+.env
+secrets.json
