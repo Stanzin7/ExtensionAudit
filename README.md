@@ -5,21 +5,15 @@
 <br> </br>
 <br> </br>
 
-Ahhh… just found out there’s a site called ExtensionAuditor that’s rebranding to ExtensionScanner.
-Probably to avoid legal / naming issues, since we’re in the same space — except I’m offering this for free (at least for now :).
+My full codebase lives in a separate private repo right now. 
+I’m gradually open-sourcing parts of it.
+My goal is to become a pipeline as ThreatXtension,
+as they continue to improve so will we and we are planning to
+provide API as a service in future. Providing all the Stats.
+Love open source.
 
-My full codebase lives in a separate private repo right now. I’m gradually open-sourcing parts of it as I clean up the pipeline.
-
-Credits / Reference: I’m using ThreatXtension as the first-layer engine, and then building a much larger layer on top: custom rulesets + compliance/governance logic.
-link here: https://extensionscanner.com/research/methodology
-
-Heads up: I’m using AI to refactor and move files around, so things may look messy for a day or two — check back in ~48 hours while I stabilize the structure.
-
-Long-term plan: wire this frontend into the ThreatXtension engine running in the background, plus my rulesets, 
-so anyone can scan extensions, play around with the results, and suggest fixes / improvements.
-
-ThreatXtension: https://github.com/barvhaim/ThreatXtension?tab=readme-ov-file#license
+ThreatXtension Link: https://extensionscanner.com/research/methodology
 
 <p align="center">
-  <strong>Built with ❤️ for the open-source security community</strong>
+  <strong> Just Vibing </strong>
 </p>
