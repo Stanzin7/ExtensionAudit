@@ -1,5 +1,9 @@
 <h1 align="center">ExtensionScanner</h1>
 
+
+Ahhh.. just found out there is a site extensionauditor changing name to extensionscanner. 
+To avoid legal issues, because we provide similar services; except I do it for free.
+
 I have the Codebase in other private Repo, I am making some of it Open source.
 I have used ThreatXtension as the first layer, refernce should be below.
 And then built extensive rulesets on top of that.
